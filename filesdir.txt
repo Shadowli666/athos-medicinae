@@ -1,0 +1,152 @@
+.
+├── app
+│   ├── Http
+│   ├── Livewire
+│   ├── Models
+│   └── Providers
+├── bootstrap
+│   └── cache
+├── config
+├── database
+│   ├── factories
+│   ├── migrations
+│   └── seeders
+├── node_modules
+│   ├── ansi-regex
+│   ├── ansi-styles
+│   ├── asynckit
+│   ├── autoprefixer
+│   ├── axios
+│   ├── browserslist
+│   ├── call-bind-apply-helpers
+│   ├── caniuse-lite
+│   ├── chalk
+│   ├── cliui
+│   ├── color-convert
+│   ├── color-name
+│   ├── combined-stream
+│   ├── concurrently
+│   ├── delayed-stream
+│   ├── detect-libc
+│   ├── dunder-proto
+│   ├── electron-to-chromium
+│   ├── emoji-regex
+│   ├── enhanced-resolve
+│   ├── @esbuild
+│   ├── esbuild
+│   ├── escalade
+│   ├── es-define-property
+│   ├── es-errors
+│   ├── es-object-atoms
+│   ├── es-set-tostringtag
+│   ├── follow-redirects
+│   ├── form-data
+│   ├── fraction.js
+│   ├── function-bind
+│   ├── get-caller-file
+│   ├── get-intrinsic
+│   ├── get-proto
+│   ├── gopd
+│   ├── graceful-fs
+│   ├── has-flag
+│   ├── hasown
+│   ├── has-symbols
+│   ├── has-tostringtag
+│   ├── is-fullwidth-code-point
+│   ├── jiti
+│   ├── laravel-vite-plugin
+│   ├── lightningcss
+│   ├── lightningcss-linux-x64-gnu
+│   ├── lightningcss-linux-x64-musl
+│   ├── lodash
+│   ├── math-intrinsics
+│   ├── mime-db
+│   ├── mime-types
+│   ├── nanoid
+│   ├── node-releases
+│   ├── normalize-range
+│   ├── picocolors
+│   ├── picomatch
+│   ├── postcss
+│   ├── postcss-value-parser
+│   ├── proxy-from-env
+│   ├── require-directory
+│   ├── @rollup
+│   ├── rollup
+│   ├── rxjs
+│   ├── shell-quote
+│   ├── source-map-js
+│   ├── string-width
+│   ├── strip-ansi
+│   ├── supports-color
+│   ├── @tailwindcss
+│   ├── tailwindcss
+│   ├── tapable
+│   ├── tree-kill
+│   ├── tslib
+│   ├── @types
+│   ├── update-browserslist-db
+│   ├── vite
+│   ├── vite-plugin-full-reload
+│   ├── wrap-ansi
+│   ├── y18n
+│   ├── yargs
+│   └── yargs-parser
+├── public
+│   └── build
+├── resources
+│   ├── css
+│   ├── js
+│   └── views
+├── routes
+├── storage
+│   ├── app
+│   ├── framework
+│   ├── logs
+│   └── pail
+├── tests
+│   ├── Feature
+│   └── Unit
+└── vendor
+    ├── bin
+    ├── brick
+    ├── carbonphp
+    ├── composer
+    ├── dflydev
+    ├── doctrine
+    ├── dragonmantank
+    ├── egulias
+    ├── fakerphp
+    ├── filp
+    ├── fruitcake
+    ├── graham-campbell
+    ├── guzzlehttp
+    ├── hamcrest
+    ├── laravel
+    ├── _laravel_ide
+    ├── league
+    ├── livewire
+    ├── mockery
+    ├── monolog
+    ├── myclabs
+    ├── nesbot
+    ├── nette
+    ├── nikic
+    ├── nunomaduro
+    ├── phar-io
+    ├── phpoption
+    ├── phpunit
+    ├── psr
+    ├── psy
+    ├── ralouphie
+    ├── ramsey
+    ├── sebastian
+    ├── staabm
+    ├── symfony
+    ├── theseer
+    ├── tijsverkoyen
+    ├── vlucas
+    ├── voku
+    └── webmozart
+
+150 directories
