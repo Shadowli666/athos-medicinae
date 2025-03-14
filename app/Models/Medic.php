@@ -19,4 +19,14 @@ class Medic extends Model
      */
 
     public $timestamps = true;
+
+    protected $fillable = [
+        'name',
+        'last_name',
+        'ci',
+        'email',
+        'phone',
+        'created_at',
+        'updated_at'
+    ];
 }

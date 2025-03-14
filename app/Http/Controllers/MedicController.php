@@ -11,7 +11,7 @@ class MedicController extends Controller
      */
     public function index()
     {
-        $medics = Medic::all();
+        $medics = Medic::paginate(10);
         return view('medics.index', compact('medics'));
     }
 
@@ -20,7 +20,7 @@ class MedicController extends Controller
      */
     public function create()
     {
-        //
+        return view('medics.create');
     }
 
     /**
@@ -28,7 +28,16 @@ class MedicController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:80',
+            'last_name' => 'required|string|max:80',
+            'ci' => 'required|integer|unique:medics,ci',
+            'email' => 'required|email|max:80|unique:medics,email',
+            'phone' => 'required|string|max:15',
+        ]);
+
+        $medic = Medic::create($validatedData);
+        return redirect()->route('medic.index');
     }
 
     /**
